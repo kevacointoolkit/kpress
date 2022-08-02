@@ -530,7 +530,7 @@ $dida="<h2 ".$rgb.">".hex2bin($gname)."</h2><p><a href=https://dxid.io/p".$comm.
 
 //media
 
-$kpage="<div class=\"nft\"><a href=".$comm."><img src=/media/keva.png></a></div>";
+$kpage="<div class=\"nft\"><a href=""><img src=/media/keva.png></a></div>";
 
 $didam="<div>".$facebookp."".$twitterp."".$redditp."".$discordp."".$instagramp."".$linkedinp."".$snapchatp."".$telegramp."".$tiktokp."".$tumblrp."".$twitchp."".$youtubep."".$nintendop."".$playstationp."".$steamp."".$githubp."".$weibop."</div>";
 
