@@ -8,7 +8,7 @@ chmod +x kpress.sh
 
 sudo -s
 
-./kva.sh
+./kpress.sh
 
 # change kpress number
 
