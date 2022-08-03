@@ -4,7 +4,7 @@
 
 apt install apache2 -y
 
-systemctl status apache2
+
 
 apt install php libapache2-mod-php -y
 
