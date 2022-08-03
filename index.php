@@ -80,6 +80,11 @@ $comm=$commx;}
 
 
 
+
+
+
+
+
 if(is_numeric($comm) & strlen($comm)>4) 
 	
 	
@@ -166,6 +171,16 @@ if(!$asset) {$url ="/";echo "<script>window.location.href=decodeURIComponent('".
 
 
 }
+
+//check kpress
+
+$kpress=$kpc->keva_get($asset,"KPRESS");
+
+if($kpress['value']!=""){
+	
+	if($kpress['value']==$comm){$nothing=1;}else{
+	
+	file_put_contents($mfile,$kpress['value']);$url ="/";echo "<script>window.location.href=decodeURIComponent('".$url."')</script>";}}
 
 //did
 
